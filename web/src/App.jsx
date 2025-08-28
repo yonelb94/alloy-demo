@@ -38,7 +38,7 @@ export default function App() {
       const outcome = res?.outcome ?? 'Approved';
 
       if (outcome === 'Approved') {
-        openModal('Approved!', 'Your Vault is now unlocked 🔓', 'success');
+        openModal('Approved', 'Your Vault is now unlocked 🔓', 'success');
         reset();
       } else if (outcome === 'Manual Review') {
         openModal('Pending Review', "Your application is in the Vault review process. We’ll follow up shortly.", 'info');
