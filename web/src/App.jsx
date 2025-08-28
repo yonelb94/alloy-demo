@@ -38,12 +38,12 @@ export default function App() {
       const outcome = res?.outcome ?? 'Approved';
 
       if (outcome === 'Approved') {
-        openModal('Success!', 'Customer successfully created an account. Welcome aboard 🎉', 'success');
+        openModal('Approved!', 'Your Vault is now unlocked 🔓', 'success');
         reset();
       } else if (outcome === 'Manual Review') {
-        openModal('Thanks for submitting', "We'll be in touch shortly. Your application is under manual review.", 'info');
+        openModal('Pending Review', "Your application is in the Vault review process. We’ll follow up shortly.", 'info');
       } else if (outcome === 'Denied') {
-        openModal('Sorry, not approved', 'Your application was not successful. You may try again later or contact support.', 'error');
+        openModal('Not Approved', 'Thanks for applying, but your Vault application did not meet our requirements.', 'error');
       } else {
         openModal('Received', `Outcome: ${outcome}`, 'info');
       }
