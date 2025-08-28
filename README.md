@@ -14,20 +14,20 @@ It simulates a simple credit application process:
 
 ## Frontend (User Interface)
 
-- **React** – builds the interactive form and UI components  
-- **Vite** – development and build tool for fast setup and packaging  
-- **React Hook Form + Zod** – manage form inputs and validate data before submission  
-- **Modal** – popup messages to show application outcomes
+- **React**: builds the interactive form and UI components  
+- **Vite**: development and build tool for fast setup and packaging  
+- **React Hook Form + Zod**: manage form inputs and validate data before submission  
+- **Modal**: popup messages to show application outcomes
 
 ---
 
 ## Backend (Server)
 
-- **Express** – lightweight server that receives form data  
-- **Axios** – sends requests from the server to the Alloy API  
-- **Zod** – validates incoming data on the server  
-- **dotenv** – securely manages environment variables (like API keys)  
-- **Morgan** – logs requests for debugging and monitoring  
+- **Express**: lightweight server that receives form data  
+- **Axios**: sends requests from the server to the Alloy API  
+- **Zod**: validates incoming data on the server  
+- **dotenv**: securely manages environment variables (like API keys)  
+- **Morgan**: logs requests for debugging and monitoring  
 
 ---
 
