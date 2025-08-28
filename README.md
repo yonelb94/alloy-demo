@@ -122,9 +122,3 @@ Restart backend → now real Alloy requests.
 - **Frontend:** React, Vite, React Hook Form, Zod  
 - **Backend:** Express, Axios, dotenv, Zod, Morgan  
 - **Modes:** Simulation vs Real Alloy API  
-
----
-
-## 📄 License
-
-MIT License © 2025 YOUR NAME
